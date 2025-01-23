@@ -1,0 +1,18 @@
+[Unit]
+Description=Run TPCH benchmark for Carbon - DuckDB
+
+[Service]
+# Everything in GB
+User=michalis
+Group=michalis
+EnvironmentFile=/etc/systemd/system/tpch_benchmark.env
+Environment="MEM_LIMIT=512"
+
+ExecStart= /bin/bash -c 'source ${PYTHON_ENV}/bin/activate && cd ${PROJECT_PATH} && exec ${PYTHON_ENV}/bin/python3 ${PYTHON_PATH} --benchmark tpch --database duckdb --data ${DATA_DIR} --db_path ${DATA_DIR} --mem_limit ${MEM_LIMIT}'
+
+MemoryMax=${MEM_LIMIT}
+MemorySwapMax=0
+#CPUAffinity=0-13
+
+StandardOutput=file:/home/michalis/Projects/Environmental/Carbon/codebase/olap_db_carbon_benchmark/benchmark_scripts/tpch/logs/tpch_duckdb_output.log
+StandardError=file:/home/michalis/Projects/Environmental/Carbon/codebase/olap_db_carbon_benchmark/benchmark_scripts/tpch/logs/tpch_duckdb_error.log

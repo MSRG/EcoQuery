@@ -1,0 +1,359 @@
+created database in maintenance mode: tpch
+starting database 'tpch'... done
+intel-rapl:1 - Name: package-1
+intel-rapl:0 - Name: package-0
+
+Execute benchmark tpch on database monetdb with SF 300gb
+Creating TPCH schema in monetdb
+Measuring the energy consumption of the system in idle state for 16 seconds
+
+Results for idle state:
+Total energy consumed by RAM is:215.48344 J
+Average energy consumed by RAM is:13.468048144663575 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 709.664566 J
+Average energy consumed by CPU is 44.3551325403464 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 491.481103 J
+Average energy consumed by package 0 is 30.718328783856233 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 218.183463 J
+Average energy consumed by package 1 is 13.636803756490167 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 15.999604225158691 sec
+Before load data
+Results for load data:
+Total energy consumed by RAM is:157794.9830229995 J
+Average energy consumed by RAM is:15.281605571414293 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 363151.7478180007 J
+Average energy consumed by CPU is 35.16931696057489 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 184337.7558930011 J
+Average energy consumed by package 0 is 17.85213207359009 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 178813.991925 J
+Average energy consumed by package 1 is 17.3171848869848 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 10325.811792850494 sec
+Results for tpch-q1:
+Total energy consumed by RAM is:23205.214839000015 J
+Average energy consumed by RAM is:17.09968604850549 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 54755.594065 J
+Average energy consumed by CPU is 40.34883858680358 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 31519.400144 J
+Average energy consumed by package 0 is 23.226324368856595 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 23236.19392100002 J
+Average energy consumed by package 1 is 17.122514217946986 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 1357.0550227165222 sec
+Results for tpch-q2:
+Total energy consumed by RAM is:61.767386 J
+Average energy consumed by RAM is:27.20146009328314 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 173.45439000000002 J
+Average energy consumed by CPU is 76.38679525129604 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 92.459053 J
+Average energy consumed by package 0 is 40.71762467724068 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 80.99533699999999 J
+Average energy consumed by package 1 is 35.66917057405536 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 2.270737886428833 sec
+Results for tpch-q3:
+Total energy consumed by RAM is:1390.5576670000003 J
+Average energy consumed by RAM is:16.345784907213222 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 2872.479774000001 J
+Average energy consumed by CPU is 33.76554432109319 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 1595.6320249999999 J
+Average energy consumed by package 0 is 18.75640147163423 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 1276.8477490000005 J
+Average energy consumed by package 1 is 15.009142849458959 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 85.07133030891418 sec
+Results for tpch-q4:
+Total energy consumed by RAM is:540.0778670000001 J
+Average energy consumed by RAM is:20.990672859785533 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 1205.2245770000002 J
+Average energy consumed by CPU is 46.842272872441924 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 550.4544020000001 J
+Average energy consumed by package 0 is 21.393967393614513 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 654.7701750000001 J
+Average energy consumed by package 1 is 25.448305478827415 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 25.729421377182007 sec
+Results for tpch-q5:
+Total energy consumed by RAM is:2093.3066799999997 J
+Average energy consumed by RAM is:19.45519784379769 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 4151.692923000002 J
+Average energy consumed by CPU is 38.58584505336779 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 2591.049088 J
+Average energy consumed by package 0 is 24.081217105766648 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 1560.6438350000003 J
+Average energy consumed by package 1 is 14.504627947601147 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 107.59626793861389 sec
+Results for tpch-q6:
+Total energy consumed by RAM is:38.626044 J
+Average energy consumed by RAM is:28.037423096823545 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 108.817532 J
+Average energy consumed by CPU is 78.98720316882918 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 56.224405 J
+Average energy consumed by package 0 is 40.811516482303006 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 52.593127 J
+Average energy consumed by package 1 is 38.17568668652617 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 1.3776602745056152 sec
+Results for tpch-q7:
+Total energy consumed by RAM is:395.742822 J
+Average energy consumed by RAM is:20.507175087166413 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 811.4782700000001 J
+Average energy consumed by CPU is 42.0503570430417 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 304.69319099999996 J
+Average energy consumed by package 0 is 15.789033352838517 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 506.785079 J
+Average energy consumed by package 1 is 26.261323690203184 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 19.297773599624634 sec
+Results for tpch-q8:
+Total energy consumed by RAM is:1225.0490760000005 J
+Average energy consumed by RAM is:21.224193885275298 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 2451.7530619999998 J
+Average energy consumed by CPU is 42.47705938166462 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 1622.0086050000002 J
+Average energy consumed by package 0 is 28.101588573505367 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 829.744457 J
+Average energy consumed by package 1 is 14.375470808159253 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 57.71946310997009 sec
+Results for tpch-q9:
+Total energy consumed by RAM is:3767.7100889999997 J
+Average energy consumed by RAM is:21.05132885655997 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 7507.069037000004 J
+Average energy consumed by CPU is 41.94425136588208 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 3219.4998739999996 J
+Average energy consumed by package 0 is 17.98831359108516 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 4287.569163 J
+Average energy consumed by package 1 is 23.955937774796922 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 178.97730422019958 sec
+Results for tpch-q10:
+Total energy consumed by RAM is:8038.021489000003 J
+Average energy consumed by RAM is:12.490113339807667 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 17940.591638999977 J
+Average energy consumed by CPU is 27.877509815191242 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 9369.792418999996 J
+Average energy consumed by package 0 is 14.559524311291693 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 8570.799219999997 J
+Average energy consumed by package 1 is 13.31798550389955 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 643.5507245063782 sec
+Results for tpch-q11:
+Total energy consumed by RAM is:204.38226500000002 J
+Average energy consumed by RAM is:24.889213259450507 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 450.05304699999994 J
+Average energy consumed by CPU is 54.806449399357135 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 221.18864299999998 J
+Average energy consumed by package 0 is 26.93585623094775 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 228.864404 J
+Average energy consumed by package 1 is 27.87059316840939 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 8.21168041229248 sec
+Results for tpch-q12:
+Total energy consumed by RAM is:147.994835 J
+Average energy consumed by RAM is:25.294246516802744 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 389.3578289999999 J
+Average energy consumed by CPU is 66.54632852540516 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 195.185413 J
+Average energy consumed by package 0 is 33.35973145891176 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 194.172416 J
+Average energy consumed by package 1 is 33.18659706649339 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 5.850928783416748 sec
+Results for tpch-q13:
+Total energy consumed by RAM is:2411.6559669999992 J
+Average energy consumed by RAM is:23.265385885961944 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 4947.680266 J
+Average energy consumed by CPU is 47.730560330311356 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 2086.1934509999996 J
+Average energy consumed by package 0 is 20.12562999632926 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 2861.486815 J
+Average energy consumed by package 1 is 27.604930333982097 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 103.65854144096375 sec
+Results for tpch-q14:
+Total energy consumed by RAM is:88.981005 J
+Average energy consumed by RAM is:26.259581655646645 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 198.666485 J
+Average energy consumed by CPU is 58.62935336702254 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 92.175973 J
+Average energy consumed by package 0 is 27.202462926578324 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 106.490512 J
+Average energy consumed by package 1 is 31.426890440444215 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 3.3885157108306885 sec
+Results for tpch-q15:
+Total energy consumed by RAM is:222.83899200000002 J
+Average energy consumed by RAM is:25.19730992476936 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 490.488918 J
+Average energy consumed by CPU is 55.46157416432212 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 230.75807600000002 J
+Average energy consumed by package 0 is 26.09275291738657 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 259.730842 J
+Average energy consumed by package 1 is 29.368821246935553 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 8.843761205673218 sec
+Results for tpch-q16:
+Total energy consumed by RAM is:318.21299500000003 J
+Average energy consumed by RAM is:22.175159698446336 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 708.3954640000001 J
+Average energy consumed by CPU is 49.36562236829765 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 411.807845 J
+Average energy consumed by package 0 is 28.697460101992487 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 296.58761899999996 J
+Average energy consumed by package 1 is 20.668162266305167 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 14.349975347518921 sec
+Results for tpch-q17:
+Total energy consumed by RAM is:186.244788 J
+Average energy consumed by RAM is:26.917970603446527 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 606.985141 J
+Average energy consumed by CPU is 87.72759956196381 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 301.632651 J
+Average energy consumed by package 0 is 43.594985501863526 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 305.35249 J
+Average energy consumed by package 1 is 44.132614060100295 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 6.918975830078125 sec
+Results for tpch-q18:
+Total energy consumed by RAM is:3324.516448000001 J
+Average energy consumed by RAM is:21.818359403461347 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 6859.516195999999 J
+Average energy consumed by CPU is 45.01809271788327 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 2935.3310479999996 J
+Average energy consumed by package 0 is 19.264187371348754 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 3924.185148000001 J
+Average energy consumed by package 1 is 25.753905346534516 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 152.37243032455444 sec
+Results for tpch-q19:
+Total energy consumed by RAM is:1125.5554380000003 J
+Average energy consumed by RAM is:13.410096437449935 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 2448.3427920000004 J
+Average energy consumed by CPU is 29.17005404104797 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 1256.3899119999999 J
+Average energy consumed by package 0 is 14.968884973713068 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 1191.9528799999998 J
+Average energy consumed by package 1 is 14.201169067334899 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 83.93343353271484 sec
+Results for tpch-q20:
+Total energy consumed by RAM is:261.401478 J
+Average energy consumed by RAM is:23.36540361856314 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 534.2893409999999 J
+Average energy consumed by CPU is 47.75751918878253 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 234.900154 J
+Average energy consumed by package 0 is 20.99657947715444 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 299.389187 J
+Average energy consumed by package 1 is 26.76093971162809 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 11.187543869018555 sec
+Results for tpch-q21:
+Total energy consumed by RAM is:549.793872 J
+Average energy consumed by RAM is:25.089030722800416 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 1339.757925 J
+Average energy consumed by CPU is 61.13787267065126 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 657.15341 J
+Average energy consumed by package 0 is 29.98822455606246 J/sec
+stopping database 'tpch'... done
+destroyed database: tpch
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 682.604515 J
+Average energy consumed by package 1 is 31.149648114588803 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 21.91371512413025 sec
+Results for tpch-q22:
+Total energy consumed by RAM is:1419.6594169999998 J
+Average energy consumed by RAM is:21.139095968929567 J/sec
+Total carbon emitted by RAM is:0.0 gCO₂eq
+Total energy consumed by CPU is 2771.6066730000016 J
+Average energy consumed by CPU is 41.26994034420059 J/sec
+Total carbon emitted by CPU is 0.0 gCO₂eq
+Total energy consumed by package 0 is 1077.467821 J
+Average energy consumed by package 0 is 16.04377458340237 J/sec
+Total carbon emitted by package 0 is 0.0 gCO₂eq
+Total energy consumed by package 1 is 1694.1388519999996 J
+Average energy consumed by package 1 is 25.226165760798217 J/sec
+Total carbon emitted by package 1 is 0.0 gCO₂eq
+Total execution time is: 67.15800046920776 sec
+Benchmark tpch on database monetdb with SF 300gb is complete
+tdb with SF 300gb is complete
+lete
+th SF 300gb is complete
+th SF 100gb is complete
+tal execution time is: 27.49730634689331 sec
+Benchmark tpch on database monetdb with SF 100gb is complete
+h SF 300gb is complete
+omplete
+ complete
+h SF 300gb is complete

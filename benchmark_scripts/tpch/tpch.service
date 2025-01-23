@@ -1,0 +1,12 @@
+[Unit]
+Description=Run TPCH benchmark for carbon
+
+[Service]
+# Everything in GB
+Environment="SCALE_FACTORS=10"
+ExecStart=/home/michalis/Documents/UofT/MSRG/Carbon/codebase/olap_benchmark/benchmark_scripts/tpch/run_tpch.sh /home/michalis/Documents/UofT/MSRG/Carbon/benchmarks/tpch/data /home/michalis/Documents/UofT/MSRG/Carbon/codebase/olap_benchmark/benchmark_tools/tpch-tools/dbgen /home/michalis/Documents/UofT/MSRG/Carbon/codebase/olap_benchmark false
+MemoryMax=12G
+MemorySwapMax=0
+
+StandardOutput=append:/home/michalis/Documents/UofT/MSRG/Carbon/codebase/olap_benchmark/benchmark_scripts/tpch/logs/tpch_output.log
+StandardError=append:/home/michalis/Documents/UofT/MSRG/Carbon/codebase/olap_benchmark/benchmark_scripts/tpch/logs/tpch_error.log

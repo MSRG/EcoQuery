@@ -1,0 +1,17 @@
+[Unit]
+Description=Run TPCH benchmark for Carbon - StarRocks
+
+[Service]
+# Everything in GB
+User=michalis
+Group=michalis
+EnvironmentFile=/etc/systemd/system/tpch_benchmark.env
+
+ExecStart= /bin/bash -c 'source ${PYTHON_ENV}/bin/activate && cd ${PROJECT_PATH} && exec ${PYTHON_ENV}/bin/python3 ${PYTHON_PATH} --benchmark tpch --database starrocks --ip 127.0.0.1 --data ${DATA_DIR} --name tpch'
+
+#MemoryMax=150G
+MemorySwapMax=0
+#CPUAffinity=0-13
+
+StandardOutput=file:/home/michalis/Projects/Environmental/Carbon/codebase/olap_db_carbon_benchmark/benchmark_scripts/tpch/logs/tpch_starrocks_output.log
+StandardError=file:/home/michalis/Projects/Environmental/Carbon/codebase/olap_db_carbon_benchmark/benchmark_scripts/tpch/logs/tpch_starrocks_error.log
