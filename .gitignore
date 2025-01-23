@@ -1,0 +1,32 @@
+/venv/
+core/benchmarks/tpcds/results/
+core/benchmarks/ssb/results/
+__pycache__/
+core/databases/__pycache__/
+core/__pycache__
+hyperd.log
+
+# Python bytecode files
+*.pyc
+
+# Python cache directories
+__pycache__/
+
+# Distribution directories
+*.egg-info/
+dist/
+build/
+
+# Environment directories
+venv/
+env/
+.env/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+ssb
+tpch
+tpcds
